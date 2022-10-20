@@ -1045,18 +1045,28 @@ h4 {
   .img-responsive {
     width: 100%;
   }
+  .titre-second{
+    width: 80%;
+  }
+  .text-center{
+    font-size: 17px;
+  }
+  .text-infos{
+    width: 90%;
+    margin: auto;
+  }
 }
 .text-infos {
   font-size: 24px;
   width: 55%;
   margin: auto;
-
   color: #333333;
 }
 .color-h1 {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 .color-p {
   display: flex;
@@ -1064,4 +1074,14 @@ h4 {
   align-items: center;
   font-size: 14px;
   color: #000000;
+  text-align: center;
+  padding: 10px;
+}
+.center-liens{
+  display: flex;
+  margin: auto;
+  width: 200px;
+}
+.center-liens h4 {
+  margin-left: 30px;
 }
